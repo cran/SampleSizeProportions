@@ -1,14 +1,14 @@
 \name{SampleSizeProportions-package}
 \alias{SampleSizeProportions}
 \docType{package}
-\title{Bayesian sample size determination for the difference between two binomial proportions}
+\title{Bayesian Sample Size Determination for the Difference between Two Binomial Proportions}
 \description{Calculate sample sizes based on highest posterior density intervals when comparing two binomial proportions using three different Bayesian approaches.}
 \details{
 \tabular{ll}{
 Package: \tab SampleSizeProportions\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2009-12-16\cr
+Version: \tab 1.1\cr
+Date: \tab 2023-02-01\cr
 License: \tab GLP (version 2 or later)\cr
 URL: \tab \url{http://www.medicine.mcgill.ca/epidemiology/Joseph/Methodological-Publications-Bayesian-Sample-Size.html}\cr
 }
@@ -20,10 +20,10 @@ in the context of binomial observations are provided.
 In all cases, estimation of the difference between two binomial proportions is considered.
 Functions for both the fully Bayesian and the mixed Bayesian/likelihood approaches are provided.
 \cr\cr See the related package \pkg{SampleSizeMeans} for Bayesian sample sizes calculations based on highest posterior density intervals for normal means 
-\cr\url{http://cran.r-project.org/web/packages/SampleSizeMeans/index.html}
+\cr\url{https://CRAN.R-project.org/package=SampleSizeProportions}
 }
 \author{Lawrence Joseph, Roxane du Berger and Patrick Belisle\cr
-Maintainer: Lawrence Joseph \email{lawrence.joseph@mcgill.ca}}
+Maintainer: Patrick Belisle \email{patrickb.stat@gmail.com}}
 \references{Joseph L, du Berger R, and Belisle P.\cr
 Bayesian and mixed Bayesian/likelihood criteria for sample size determination\cr
 Statistics in Medicine 1997;16(7):769-781.}

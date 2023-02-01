@@ -1,1 +1,3 @@
+importFrom("stats", "pbeta", "qbeta", "qchisq", "qnorm", "rbeta", "rbinom")
+
 export(propdiff.acc, propdiff.alc, propdiff.freq, propdiff.mblacc, propdiff.mblalc, propdiff.mblmodwoc, propdiff.mblwoc, propdiff.modwoc, propdiff.woc)

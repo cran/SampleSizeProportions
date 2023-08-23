@@ -19,10 +19,10 @@ for the difference between the two unknown proportions from a \strong{frequentis
 \references{Lemeshow S, Hosmer Jr DW, Klar J, Lwanga SK.\cr
 Adequacy of Sample Size in Health Studies. Wiley and Sons, New York, 1990.
 \cr\cr
-Joseph L, du Berger R, and Belisle P.\cr
+Joseph L, du Berger R, and Bélisle P.\cr
 Bayesian and mixed Bayesian/likelihood criteria for sample size determination\cr
 Statistics in Medicine 1997;16(7):769-781.}
-\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Belisle and Roxane du Berger}
+\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Bélisle and Roxane du Berger}
 \seealso{\code{\link{propdiff.acc}}, \code{\link{propdiff.modwoc}}, \code{\link{propdiff.woc}}, \code{\link{propdiff.mblacc}}, \code{\link{propdiff.mblalc}}, \code{\link{propdiff.mblmodwoc}}, \code{\link{propdiff.mblwoc}}}
 \examples{propdiff.freq(len=0.01, p1.estimate=0.15, p2.estimate=0.20)}
 \keyword{design}

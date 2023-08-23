@@ -32,10 +32,10 @@ are used for final inferences. Researchers preferring to use the data only for f
 to use the Mixed Bayesian/Likelihood version of the function.}
 \note{The sample sizes are calculated via Monte Carlo simulations, and therefore may vary from one call to the next.}
 \value{The required sample sizes (n1, n2) for each group given the inputs to the function.}
-\references{Joseph L, du Berger R, and Belisle P.\cr
+\references{Joseph L, du Berger R, and Bélisle P.\cr
 Bayesian and mixed Bayesian/likelihood criteria for sample size determination\cr
 Statistics in Medicine 1997;16(7):769-781.}
-\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Belisle and Roxane du Berger}
+\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Bélisle and Roxane du Berger}
 \seealso{\code{\link{propdiff.acc}}, \code{\link{propdiff.modwoc}}, \code{\link{propdiff.woc}}, \code{\link{propdiff.mblacc}}, \code{\link{propdiff.mblalc}}, \code{\link{propdiff.mblmodwoc}}, \code{\link{propdiff.mblwoc}}}
 \examples{propdiff.alc(len=0.05, c1=3, d1=11, c2=11, d2=54)}
 \keyword{design}

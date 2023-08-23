@@ -34,10 +34,10 @@ inferences only on the data.}
 \note{The sample sizes returned by this function are exact.
 \cr\cr It is also correct to state that the coverage probability of the posterior credible interval of fixed length \emph{len} will be at least \emph{level} with probability \emph{worst.level} with the sample sizes returned.}
 \value{The required sample sizes (n1, n2) for each group given the inputs to the function.}
-\references{Joseph L, du Berger R, and Belisle P.\cr
+\references{Joseph L, du Berger R, and Bélisle P.\cr
 Bayesian and mixed Bayesian/likelihood criteria for sample size determination\cr
 Statistics in Medicine 1997;16(7):769-781.}
-\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Belisle and Roxane du Berger}
+\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Bélisle and Roxane du Berger}
 \seealso{\code{\link{propdiff.mblacc}}, \code{\link{propdiff.mblalc}}, \code{\link{propdiff.mblwoc}}, \code{\link{propdiff.acc}}, \code{\link{propdiff.alc}}, \code{\link{propdiff.modwoc}}, \code{\link{propdiff.woc}}}
 \examples{propdiff.mblmodwoc(len=0.05, c1=3, d1=11, c2=11, d2=54, worst.level=0.95)}
 \keyword{design}

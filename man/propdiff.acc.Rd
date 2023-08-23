@@ -1,6 +1,6 @@
 \name{propdiff.acc}
 \alias{propdiff.acc}
-\title{Bayesian sample size determination for the difference between two binomial proportions using the Average Coverage Criterion} 
+\title{Bayesian sample size determination for the difference between two binomial proportions using the Average Coverage Criterion}
 \description{The function \code{propdiff.acc} returns the required sample sizes to reach a given coverage probability on average for a posterior credible interval of fixed length for the difference between two binomial proportions.}
 \usage{propdiff.acc(len, c1, d1, c2, d2, level = 0.95, equal = TRUE, m = 10000, mcs = 3)}
 \arguments{

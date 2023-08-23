@@ -25,10 +25,10 @@ MBL approaches use the prior information to derive the predictive distribution o
 This approach is intended to satisfy investigators who recognize that prior information is important for planning purposes but prefer to base final inferences only on the data.}
 \note{The sample sizes are calculated via Monte Carlo simulations, and therefore may vary from one call to the next.}
 \value{The required sample sizes (n1, n2) for each group given the inputs to the function.}
-\references{Joseph L, du Berger R, and Belisle P.\cr
+\references{Joseph L, du Berger R, and Bélisle P.\cr
 Bayesian and mixed Bayesian/likelihood criteria for sample size determination\cr
 Statistics in Medicine 1997;16(7):769-781.}
-\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Belisle and Roxane du Berger}
+\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca}, Patrick Bélisle and Roxane du Berger}
 \seealso{\code{\link{propdiff.mblalc}}, \code{\link{propdiff.mblmodwoc}}, \code{\link{propdiff.mblwoc}}, \code{\link{propdiff.acc}}, \code{\link{propdiff.alc}}, \code{\link{propdiff.modwoc}}, \code{\link{propdiff.woc}}}
 \examples{propdiff.mblacc(len=0.05, c1=3, d1=11, c2=11, d2=54)}
 \keyword{design}
